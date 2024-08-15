@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرأن</title>
+    <style>
+        body{
+            direction: rtl;
+            background-image: url(/img/kalfyazrga_.png);
+            margin: 0%;
+        }
+        .nav{
+            
+            margin-top: 0px;
+            display: flex;
+            font-size: 25px;
+        }
+        .move{
+            margin: 0;
+            padding: 0;
+            direction: ltr;
+            font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+            
+        }
+        h1{
+            margin: 0;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1 ><a href="/index.html" class="move">&rarr;</a></h1>    
+        <h1>القرأن الكريم</h1>
+    </div>
+    <p id="m"></p>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script>
+    axios.get('http://api.alquran.cloud/v1/meta', {
+    params: {
+      m:'Al-Faatiha'
+    }
+  })
+  .then(function (response) {
+    console.log(response.data.data.surahs.references);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .finally(function () {
+    // always executed
+  });   
+  document.getElementById(nn).innerHTML=response.data.data.surahs.references
+</script>
+</html>

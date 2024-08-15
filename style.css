@@ -1,0 +1,135 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url(/img/kalfyazrga_.png);
+    height: 100vh;
+    direction: rtl;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#weekday{
+    text-align:center; 
+    margin: 0%;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px 0px 100px;
+}
+.date div{
+    display: flex;
+}
+.date_gregorian{
+    direction: ltr;
+}
+hr{
+    margin: 10px 50px 0px 50px;
+    height: 6px;
+    border-radius: 1000px;
+}
+.select{
+    text-align:center; 
+    margin: 0%;
+    font-size: 50px;
+}
+select:hover{
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+}
+#time-left{
+    text-align: center;
+    margin-block-end: 0px;
+}
+.Basis{
+    text-align:center;
+    display: flex; 
+    justify-content: space-around;
+    margin: 10px 150px 0px 150px;
+}
+#Fajr:hover{
+    cursor: none;
+    padding: 10px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Fajr_.png);
+    height: 100px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+
+}
+#Sunrise:hover{
+    cursor: none;
+    padding: 8px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Sunrise_.png);
+    height: 100px; 
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2); 
+}
+#Dhuhr:hover{
+    cursor: none;
+    padding: 8px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Dhuhr_.png);
+    height: 100px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+}
+#Asr:hover{
+    cursor: none;
+    padding: 8px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Asr_.png);
+    height: 100px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+}
+#Sunset:hover{
+    cursor: none;
+    padding: 8px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Sunset_.png);
+    height: 100px;
+    box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
+}
+#Isha:hover{
+    cursor: none;
+    padding: 8px;
+    margin: 0px -20px 0px 0px;
+    border-radius: 20px;
+    background-image: url(/img/Isha_.png);
+    height: 100px;
+    box-shadow: 8px 8px 16px 5px rgba(42, 40, 40, 0.2);
+}
+
+select {
+    margin-top: 20px;
+    text-align:center;
+    border: none;
+    background-color:transparent;
+    appearance: none; /* لإخفاء السهم الافتراضي */
+    -webkit-appearance: none; /* لإخفاء السهم الافتراضي في WebKit browsers */
+    -moz-appearance: none; /* لإخفاء السهم الافتراضي في Firefox */
+    font-size: 70px; /* لجعل حجم النص متطابق مع النص المحيط */
+    color: inherit; /* لجعل لون النص متطابق مع النص المحيط */
+    padding: 5px;
+    cursor: pointer; /* لإظهار أن العنصر قابل للنقر */
+    border-radius:50px;
+    
+}
+option {
+    background-color: #5e88bf; /* لون الخلفية للخيارات */
+    color: rgb(17, 17, 17); /* لون النص للخيارات */
+    font-size: 20px; /* حجم الخط */
+    padding: 0px; /* المسافة الداخلية */
+    border-radius:100px;
+}
+.icons{
+    text-align: center;
+}
+#icons{
+    margin: 50px;
+}

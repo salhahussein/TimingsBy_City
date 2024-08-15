@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- date -->
+    <header >
+        
+        <div class="date">
+            <div>
+                <h3 id="day_hijri">6</h3>
+                <h3 id="month_hijri">رجب</h3>
+                <h3 id="year_hijri">1445</h3>
+            </div>
+            <div class="date_gregorian">
+                <h3 id="day">12 </h3>
+                <h3 id="month">August </h3>
+                <h3 id="year">2023 </h3>
+            </div>
+        </div>
+        <h1 id="weekday">الأثنين</h1>
+        <hr>
+    </header>
+    <!--\\ date \\-->
+    <section>
+        <!-- city name -->
+        <h1 class="select">
+            <select id="select"></select>
+        </h1>
+        <!--\\ city name \\-->
+        <!--  -->
+        
+        <div class="Basis">
+            <div id="Fajr">
+                <h2>الفجر</h2>
+                <h2>Fajr</h2>
+                <h4 id="Fajr_time">04:34am</h4>
+            </div>
+            <div id="Sunrise">
+                <h2>الشروق</h2>
+                <h2>Sunrise</h2>
+                <h4 id="Sunrise_time">06:03am</h4>
+            </div>
+            <div id="Dhuhr">
+                <h2>الظهر</h2>
+                <h2>Dhuhr</h2>
+                <h4 id="Dhuhr_time">12:48pm</h4>
+            </div>
+            <div id="Asr">
+                <h2>العصر</h2>
+                <h2>Asr</h2>
+                <h4 id="Asr_time">04:22pm</h4>
+            </div>
+            <div id="Sunset">
+                <h2>المغرب</h2>
+                <h2>Sunset</h2>
+                <h4 id="Sunset_time">07:28pm</h4>
+            </div>
+            <div id="Isha">
+                <h2>العشاء</h2>
+                <h2>Isha</h2>
+                <h4 id="Isha_time"></h4>
+            </div>
+        </div>
+    </section>
+    <h1 class="icons">
+        <a href="/quran.html" id="icons" class="fa-solid fa-book-quran"></a>
+        <a href="/athkar.html" id="icons" class="fa-solid fa-book-open"></a>
+        <a href="/Qibla.html" id="icons" class="fa-solid fa-kaaba"></a>
+        <a href="/athkar.html" id="icons" class="fa-solid fa-star-and-crescent"></a>
+    </h1>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</html>
