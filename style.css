@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding: 0px;
-    background-image: url(/img/kalfyazrga_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/kalfyazrga_.png');
     height: 100vh;
     direction: rtl;
 
@@ -54,7 +54,7 @@ select:hover{
     padding: 10px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Fajr_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Fajr_.png');
     height: 100px;
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
 
@@ -64,7 +64,7 @@ select:hover{
     padding: 8px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Sunrise_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Sunrise_.png');
     height: 100px; 
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2); 
 }
@@ -73,7 +73,7 @@ select:hover{
     padding: 8px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Dhuhr_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Dhuhr_.png');
     height: 100px;
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
 }
@@ -82,7 +82,7 @@ select:hover{
     padding: 8px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Asr_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Asr_.png');
     height: 100px;
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
 }
@@ -91,7 +91,7 @@ select:hover{
     padding: 8px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Sunset_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Sunset_.png');
     height: 100px;
     box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.2);
 }
@@ -100,7 +100,7 @@ select:hover{
     padding: 8px;
     margin: 0px -20px 0px 0px;
     border-radius: 20px;
-    background-image: url(/img/Isha_.png);
+    background-image: url('https://raw.githubusercontent.com/salhahussein/TimingsBy_City/main/img/Isha_.png');
     height: 100px;
     box-shadow: 8px 8px 16px 5px rgba(42, 40, 40, 0.2);
 }
