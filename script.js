@@ -80,5 +80,5 @@ function Timings_By_City(C){
 Timings_By_City("Ajdabiya")
 function Timings(id,time)
 {
-    document.getElementById(id).innerHTML=time
+    document.getElementById(id).innerHTML +=time
 }
