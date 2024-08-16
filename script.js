@@ -52,7 +52,7 @@ function Timings_By_City(C){
         country: "LY",
         city: C 
     }  
-    axios.get('http://api.aladhan.com/v1/timingsByCity', {
+    axios.get('https://api.aladhan.com/v1/timingsByCity', {
         params:params
     })
     .then(function (response) {
