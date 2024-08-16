@@ -40,9 +40,10 @@
     </div>
     <p id="m"></p>
 </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.4/axios.min.js" integrity="sha512-6VJrgykcg/InSIutW2biLwA1Wyq+7bZmMivHw19fI+ycW0jIjsadm8wKQQLlfv3YUS4owfMDlZU38NtaAK6fSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./node_modules/axios/dist/axios.min.js"></script>
 <script>
-    axios.get('http://api.alquran.cloud/v1/meta', {
+    axios.get('https://api.alquran.cloud/v1/meta', {
     params: {
       m:'Al-Faatiha'
     }
@@ -58,5 +59,4 @@
   });   
   document.getElementById(nn).innerHTML=response.data.data.surahs.references
 </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.4/axios.min.js" integrity="sha512-6VJrgykcg/InSIutW2biLwA1Wyq+7bZmMivHw19fI+ycW0jIjsadm8wKQQLlfv3YUS4owfMDlZU38NtaAK6fSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </html>
